@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0045)http://localhost:1046/form/registeration.html -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title></title>
+    <style>
+        body {
+            background-image: url("images/bank.jpg");
+            backface-visibility: inherit;
+            background-size: cover;
+        }
+        
+        body {
+            font-family: Arial, helvetica, sans-serif;
+            margin-left: 30%;
+            margin-top: 5%;
+            width: 500px;
+            top: 50%;
+            left: 50%;
+        }
+        
+        form {
+            border: 3px solid#b6ff00;
+        }
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid#ccc;
+            box-sizing: border-box;
+        }
+        
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        button:hover {
+            opacity: 0.8;
+        }
+        
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #ccc;
+        }
+        
+        .img container {
+            text-align: center;
+            margin: 30px 0 auto 0;
+        }
+        
+        img.avatar {
+            width: 60%;
+            border-radius: 20%;
+        }
+        
+        .container {
+            padding: 3px;
+        }
+        
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+        
+        @media screen and(max-width:300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+            .cancelbtn {
+                width: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <marquee direction="right">
+        <h2>US Bank</h2>
+    </marquee>
+    <h2>REGISTERATION FORM</h2>
+
+    <div class="img container">
+    </div>
+    <div class="container">
+        <label for="Fname"><b>First name</b></label>
+        <input type="text" placeholder="Enter your First name" ,name="Fname" required="">
+
+        <label for="Lname"><b>Last name</b></label>
+        <input type="text" placeholder="Enter your Last name" ,name="lname" required="">
+        <label for="Email"><b>Enter email</b></label>
+        <input type="text" placeholder="enter your email address" ,name="email" required="">
+
+        <label for="psw"><b> Enter password</b></label>
+        <input type="password" placeholder="Enter password" name="psw" required="">
+
+        <label for="cpsw"><b>Confirm password</b></label>
+        <input type="password" placeholder="confirm password" name="cpsw" required="">
+        <label>
+           <b> <input type="checkbox" checked="checked" name="I accept terms and policies"> I accept terms and policies</b>
+        </label>
+        <!--<button type="submit">Register now</button>-->
+        <button type="Reset">Reset</button>
+        <button type="NEXT">Proceed to Next</button>
+
+
+
+
+    </div>
+    <div class="container" style="background-color: #f1f1f100;">
+        <button type="button" class="cancelbtn">cancel</button>
+        <!--<span class ="psw">Forget<a href="#" style="color:brown;">password?</a></span>-->
+    </div>
+
+
+</body>
+
+</html>

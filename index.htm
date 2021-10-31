@@ -1,0 +1,461 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>USBANK</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        
+        a {
+            text-decoration: none;
+            /*hyperlink*/
+            color: white;
+            font-size: 19px;
+        }
+        /* header 1*/
+        
+        .header1 {
+            margin: 0px;
+            padding: 20px;
+            /*    blue patti*/
+            background: darkblue;
+            background-image: url("images/usbank.png");
+            background-repeat: no-repeat;
+        }
+        
+        .p {
+            margin: 200px;
+            /*personal*/
+        }
+        
+        .b {
+            margin: -190px;
+            /*business*/
+        }
+        
+        .w {
+            margin: 200px;
+            /*wealth management*/
+        }
+        
+        .u {
+            margin: 40px 0px 0px 0px;
+            /*about us*/
+        }
+        
+        .l {
+            margin: 23px;
+            /* log in*/
+        }
+        /* header 1*/
+        
+        input[type=text] {
+            width: 150px;
+            height: 20px;
+            margin: 0px;
+            box-sizing: border-box;
+            border: 2px;
+            border-radius: 4px;
+            background-image: url("images/search.png");
+            background-position: right;
+            background-size: 14px 15px;
+            background-repeat: no-repeat;
+            font-weight: bold;
+        }
+        /* HEADING 2*/
+        
+        .c:hover {
+            color: green;
+        }
+        
+        .c {
+            margin: 20px;
+            /*checking & saving*/
+            color: darkblue;
+        }
+        
+        .d:hover {
+            color: green;
+        }
+        
+        .d {
+            color: darkblue;
+            /*crredit cards*/
+            margin: 20px;
+        }
+        
+        .o:hover {
+            color: green;
+        }
+        
+        .o {
+            color: darkblue;
+            /*online banking*/
+            padding: 35px;
+            font-size: 20px;
+        }
+        
+        .header2 {
+            /* white patti*/
+            font-size: 0px;
+            padding: 10px;
+            background: white;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        /*HEADING 2*/
+        
+        .pic {
+            width: 1349px;
+            height: 550px;
+            background-image: url("images/homepag.jpg");
+            background-repeat: no-repeat;
+            background-size: 1350px 600px;
+            margin: 0px;
+            padding: 10px 0px 0px 0px;
+        }
+        
+        h1 {
+            color: white;
+            font-family: sans-serif;
+            font-size: 60px;
+            margin: 320px 0px 0px 70px;
+            text-shadow: 3px 4px black;
+        }
+        
+        h2 {
+            color: white;
+            font-family: sans-serif;
+            margin: 10px 0px 0px 70px;
+            font-size: 20px;
+            text-shadow: 1px 2px black;
+        }
+        
+        .credit {
+            width: 1300px;
+            height: 700px;
+            background-color: white;
+            background-image: url("images/credit.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 600px 600px;
+            font-family: sans-serif;
+            font-weight: bold;
+            margin-top: 50px;
+            margin-left: 30px;
+            font-size: 100px;
+            color: darkblue;
+        }
+        
+        .creditpara {
+            font-size: 30px;
+            font-weight: 100;
+        }
+        
+        .app {
+            width: 1149px;
+            height: 500px;
+            background-color: rgba(128, 128, 128, 0.20);
+            font-family: sans-serif;
+            font-size: 80px;
+            font-weight: bold;
+            color: darkblue;
+            padding: 100px;
+        }
+        
+        .under {
+            width: 400px;
+            height: 400px;
+            background-image: url("images/app.jpg");
+            background-repeat: no-repeat;
+            background-size: 400px 400px;
+            position: absolute;
+            right: 90px;
+            top: 1500px;
+        }
+        
+        .pay {
+            font-size: 30px;
+            font-weight: 100;
+        }
+        
+        .footer1 {
+            width: 1349px;
+            height: 700px;
+            background-color: white;
+        }
+        
+        .footer2 {
+            color: darkblue;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        
+        .footer3 {
+            width: 300px;
+            height: 300px;
+            background-image: url("images/footer1.jpg");
+            background-size: 300px 300px;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 190px;
+            top: 2300px;
+            border-radius: 150px;
+        }
+        
+        .footer4 {
+            width: 300px;
+            height: 300px;
+            background-image: url("images/footer2.jpg");
+            background-size: 300px 300px;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 820px;
+            top: 2300px;
+            border-radius: 150px;
+        }
+        
+        .fo {
+            position: absolute;
+            top: 2620px;
+            left: 215px;
+            color: darkblue;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        
+        .edu {
+            color: darkblue;
+            position: absolute;
+            top: 2620px;
+            left: 850px;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        
+        .p1 {
+            color: grey;
+            font-size: 20px;
+            position: absolute;
+            left: 860px;
+            top: 2660px;
+        }
+        
+        .p2 {
+            color: grey;
+            font-size: 20px;
+            position: absolute;
+            left: 220px;
+            top: 2660px;
+        }
+        
+        .footerend {
+            width: 1349px;
+            height: 750px;
+            float: left;
+            background-color: darkblue;
+            color: white;
+            font-size: 25px;
+            font-family: sans-serif;
+            background-image: url("images/line.svg");
+            background-size: 1350px 1350px;
+            background-repeat: no-repeat;
+        }
+        
+        .whitebox {
+            position: absolute;
+            top: 2880px;
+            left: 160px;
+            width: 1000px;
+            height: 90px;
+            border: 3px solid white;
+            border-radius: 4px;
+        }
+        
+        .end1 {
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 0px 0px 0px 25px;
+            font-weight: bold;
+        }
+        
+        .end2 {
+            font-family: sans-serif;
+            font-size: 17px;
+            padding: 0px 0px 50px 20px;
+            font-weight: bold;
+        }
+        
+        .end3 {
+            position: absolute;
+            top: 2975px;
+            left: 160px;
+            font-size: 15px;
+        }
+        
+        .end4 {
+            font-weight: bold;
+            font-size: 20px;
+            position: absolute;
+            top: 3025px;
+            left: 160px;
+        }
+        
+        .end5 {
+            font-size: 15px;
+            position: absolute;
+            top: 3055px;
+            left: 160px;
+        }
+        
+        .end6 {
+            font-weight: bold;
+            font-size: 20px;
+            position: absolute;
+            top: 3110px;
+            left: 160px;
+        }
+        
+        .end7 {
+            font-size: 16px;
+            position: absolute;
+            top: 3145px;
+            left: 160px;
+        }
+        
+        .end8whitebox {
+            position: absolute;
+            top: 3200px;
+            left: 160px;
+            width: 1000px;
+            height: 90px;
+            border: 3px solid white;
+            border-radius: 4px;
+        }
+        
+        .end9 {
+            font-weight: bold;
+            font-size: 17px;
+            position: absolute;
+            left: 15px;
+        }
+        
+        .end10 {
+            font-weight: bold;
+            font-size: 17px;
+            position: absolute;
+            top: 40px;
+            left: 15px;
+        }
+        
+        .end11 {
+            font-size: 15px;
+            position: absolute;
+            top: 3290px;
+            left: 160px;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        li a {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header1">
+        <a class="p">Personal</a>
+        <a class="b">Business</a>
+        <a class="w">Wealth Management</a>
+        <a class="u" href="aboutus.html">About Us</a>
+        <a class="l" href="login.html">Log In</a>
+        <input type="text" name="search" placeholder="Search.." />
+    </div>
+    <div class="header2">
+        <a class="o" href="netbanking.htm">Net Banking</a>
+        <a class="o" href="news.html">News</a>
+        <a class="o" href="FAQ.html">FAQ</a>
+        <a class="o" href="help.html">Help</a>
+
+        <a class="o" href="registeration2.html">Registration</a>
+    </div>
+
+    <div class="pic">
+        <h1>Banking that's just <br/>your style</h1>
+        <h2>Choose a checking account that fits with your life.</h2>
+    </div>
+    <div class="credit">
+        <header>A card that<br/>mathches<br/>you</header>
+        <p class="creditpara">Travel, cash, low rates...Get what you want with a<br/>U.S. Bank credit card.</p>
+    </div>
+    <div class="app">
+        <header>Pay people.Pay<br/>bills.Transfer<br/>money.</header>
+        <p class="pay">Right from your phone or tablet-and right away<br/>when you need it.</p>
+    </div>
+    <div class="under">
+    </div>
+    <div class="footer1">
+        <header class="footer2">Stories and insights</header>
+        <a class="fo" href="#">News and stories</a>
+        <p>
+            <center class="p1">Personal stories from employees<br/>and customers from our News<br/> and Stories site.</center>
+        </p>
+        <a class="edu" href="#">Financial education</a>
+        <p>
+            <center class="p2">Tips and answer to everyday<br/>financial question from our<br/>Financial IQ site.</center>
+        </p>
+        <div class="footer3">
+
+        </div>
+        <div class="footer4">
+
+        </div>
+    </div>
+    <div class="footerend">
+        <ul>
+            <li>
+                <a>Financial IQ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a>Security</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a>Careers</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a>FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a>Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a>Online Tracking and Advertising</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a>Site Map</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a>Accessibility</a>
+
+            </li>
+        </ul>
+        <div class="whitebox">
+            <p class="end1">Investment and Insurance products and services including annuities are:<br/></p>
+            <p class="end2">Not a Deposit.Not FDIC insured.May Lose Value.Not Bank Guaranteed.Not Insured by any Federal Government Agency</p>
+        </div>
+        <p class="end3">U.S Bank, U.S. Bancorp Investments and their representtatives do not provide tax or legal advice.Each Individual's tax and financial situation is unique.</br>
+            You should consult your tax and/or legal advisor for advice and information concerning your particular situaton.</p>
+        <p class="end4">*For U.S. Bancorp Investments:</p>
+        <p class="end5">
+            Investments products and services are available through U.S. Bancorp Investments, the marketing name for U.S. Bancorp Investments, Inc., an investment
+            </br>advisor and a brokage subsidairy of U.S. Bancorp and affiliate of U.S. Bank.</p>
+        <p class="end6">For U.S. Bank:</p>
+        <p class="end7">U.S. Bank is not responsible foe and does not guarantee the products, services or performance of U.S. Bankcorp Investments.</p>
+        <div class="end8whitebox">
+            <p class="end9">Mortage, home equity and credit products are offered by U.S. Bank National Association.
+                <br/></p>
+            <p class="end10">Deposite products offfered by U.S. Bank National Association. Mamber FDIC.</p>
+        </div>
+        <p class="end11">The credtior and issuer of U.S. Bank credit cards is U.S. Bank National Association, pursuant to separate licenses from Visa U.S.A. Inc., MasterCard
+            <br/>International Inc. and American Express. American Express is a federally registered service mark of American Express.</p>
+    </div>
+</body>
+
+</html>
